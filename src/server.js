@@ -233,11 +233,13 @@ const startServer = async () => {
     }
     const coupon = coupons.find((c) => c.barcode === req.body.barcode);
     if (!coupon) {
-      res.status(400).json({ message: "사용 불가능한 쿠폰입니다." });
+      res
+        .status(400)
+        .json({ message: "사용 불가능\n존재하지 않는 쿠폰입니다." });
       return;
     }
     if (coupon.expire !== req.body.expire) {
-      res.status(400).json({ message: "사용 불가능한 쿠폰입니다." });
+      res.status(400).json({ message: "사용 불가능\n위변조된 쿠폰입니다." });
       return;
     }
     res.status(200).json({ use: coupon.use });
