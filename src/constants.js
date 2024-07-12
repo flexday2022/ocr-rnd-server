@@ -50,8 +50,8 @@ export const couponRectangles = [
       },
       {
         title: "barcode",
-        whitelist: "0123456789",
-        langs: ["eng"],
+        // whitelist: "0123456789",
+        langs: ["digits_comma"],
         rectangle: { left: 44, top: 255, width: 271, height: 24 },
       },
       {
@@ -72,14 +72,14 @@ export const couponRectangles = [
       },
       {
         title: "barcode",
-        whitelist: "0123456789",
-        langs: ["eng"],
+        // whitelist: "0123456789",
+        langs: ["digits_comma"],
         rectangle: { left: 86, top: 388, width: 147, height: 27 },
       },
       {
         title: "expire",
-        whitelist: "0123456789",
-        langs: ["eng"],
+        // whitelist: "0123456789",
+        langs: ["digits_comma"],
         rectangle: { left: 189, top: 274, width: 73, height: 11 },
       },
       {
@@ -99,14 +99,14 @@ export const couponRectangles = [
       },
       {
         title: "barcode",
-        whitelist: "0123456789",
-        langs: ["eng"],
+        // whitelist: "0123456789",
+        langs: ["digits_comma"],
         rectangle: { left: 74, top: 324, width: 304, height: 54 },
       },
       {
         title: "expire",
-        whitelist: "0123456789",
-        langs: ["eng"],
+        // whitelist: "0123456789",
+        langs: ["digits_comma"],
         rectangle: { left: 112, top: 422, width: 118, height: 19 },
       },
       {
@@ -126,14 +126,14 @@ export const couponRectangles = [
       },
       {
         title: "barcode",
-        whitelist: "0123456789",
-        langs: ["eng"],
+        // whitelist: "0123456789",
+        langs: ["digits_comma"],
         rectangle: { left: 176, top: 1041, width: 439, height: 64 },
       },
       {
         title: "expire",
-        whitelist: "0123456789",
-        langs: ["eng"],
+        // whitelist: "0123456789",
+        langs: ["digits_comma"],
         rectangle: { left: 538, top: 1255, width: 165, height: 30 },
       },
       {
@@ -148,8 +148,8 @@ export const couponRectangles = [
       },
       {
         title: "order",
-        whitelist: "0123456789",
-        langs: ["eng"],
+        // whitelist: "0123456789",
+        langs: ["digits_comma"],
         rectangle: { left: 504, top: 1339, width: 200, height: 30 },
       },
     ],
@@ -164,14 +164,14 @@ export const couponRectangles = [
       },
       {
         title: "barcode",
-        whitelist: "0123456789",
-        langs: ["eng"],
+        // whitelist: "0123456789",
+        langs: ["digits_comma"],
         rectangle: { left: 55, top: 379, width: 250, height: 32 },
       },
       {
         title: "expire",
-        whitelist: "0123456789",
-        langs: ["eng"],
+        // whitelist: "0123456789",
+        langs: ["digits_comma"],
         rectangle: { left: 129, top: 423, width: 172, height: 12 },
       },
     ],
