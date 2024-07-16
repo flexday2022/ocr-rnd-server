@@ -196,6 +196,7 @@ const startServer = async () => {
         return worker;
       })
     );
+    const startDateTime = Date.now();
     const result = await Promise.all(
       ocrWorkers.map(async (worker, index) => {
         const result = await worker
@@ -213,9 +214,10 @@ const startServer = async () => {
         return result;
       })
     );
+    const endDateTime = Date.now();
+    const sortingTime = endDateTime - startDateTime;
     await Promise.all(ocrWorkers.map((worker) => worker.terminate()));
-
-    res.status(200).json({ couponType, result });
+    res.status(200).json({ couponType, result, sortingTime });
   });
 
   app.post("/check", (req, res) => {

@@ -38,7 +38,7 @@ export const couponTemplates = [
     templateRecognizerRectangle: { left: 66, top: 10, width: 226, height: 28 },
   },
 ];
-
+5001_20;
 export const couponRectangles = [
   {
     couponType: couponTypes.CULTURELAND,
@@ -73,7 +73,7 @@ export const couponRectangles = [
       {
         title: "barcode",
         // whitelist: "0123456789",
-        langs: ["digits_comma"],
+        langs: ["digits"],
         rectangle: { left: 86, top: 388, width: 147, height: 27 },
       },
       {
@@ -100,7 +100,7 @@ export const couponRectangles = [
       {
         title: "barcode",
         // whitelist: "0123456789",
-        langs: ["digits_comma"],
+        langs: ["digits"],
         rectangle: { left: 74, top: 324, width: 304, height: 54 },
       },
       {
@@ -211,7 +211,7 @@ export const coupons = [
   },
   {
     type: "CULTURELAND",
-    barcode: "4356578016239930",
+    barcode: "4356574816239930",
     expire: "2021060620260606",
     use: true,
   },
@@ -811,7 +811,7 @@ export const coupons = [
   },
   {
     type: "KAKAOTALK",
-    barcode: "2023473436321824",
+    barcode: "2013473436321824",
     expire: "20201123",
     use: true,
   },
