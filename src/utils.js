@@ -22,7 +22,8 @@ export const synonymProcessing = ({ title, str }) => {
       .replace(/싱글레글러/g, "싱글레귤러")
       .replace(/브루\n더/g, "브루\nT")
       .replace(/스타먹스/g, "스타벅스")
-      .replace(/자몽 허니 EET/g, "자몽 허니 블랙 티 T");
+      .replace(/자몽 허니 EET/g, "자몽 허니 블랙 티 T")
+      .replace(/콜드 HET/g, "콜드 브루 T");
   }
   if (title === "usable") {
     return str.replace(/스타먹스/g, "스타벅스");

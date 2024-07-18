@@ -38,7 +38,7 @@ export const couponTemplates = [
     templateRecognizerRectangle: { left: 66, top: 10, width: 226, height: 28 },
   },
 ];
-5001_20;
+
 export const couponRectangles = [
   {
     couponType: couponTypes.CULTURELAND,
