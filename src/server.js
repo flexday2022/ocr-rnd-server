@@ -199,7 +199,7 @@ const startServer = async () => {
 
     const endDateTime = Date.now();
     const sortingTime = endDateTime - startDateTime;
-    await Promise.all(ocrWorkers.map((worker) => worker.terminate()));
+    // await Promise.all(ocrWorkers.map((worker) => worker.terminate()));
     res
       .status(200)
       .json({ couponType: req.body.couponType, result, sortingTime });
