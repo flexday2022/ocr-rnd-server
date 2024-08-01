@@ -332,6 +332,7 @@ const startServer = async () => {
       return;
     }
 
+    const startDateTime = Date.now();
     const rectangles = couponRectangles.find(
       (i) => i.couponType === req.body.couponType
     )?.rectangles;
@@ -350,7 +351,7 @@ const startServer = async () => {
         return worker;
       })
     );
-    const startDateTime = Date.now();
+
     const result = await Promise.all(
       ocrWorkers.map(async (worker, index) => {
         const result = await worker
